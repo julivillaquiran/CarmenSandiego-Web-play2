@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" charset="utf-8">
+        <title>¿Dónde está Carmen Sandiego?</title>
+        <!-- <link rel="stylesheet" href="app/css/main.css"> -->
+        
+
+        <!-- JQuery -->
+         <script src="lib/jquery-1.11.1.min.js" type="text/javascript"></script>
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        
+          <!-- Angular -->
+        <script src="lib/angular.js"></script>
+        
+        <!-- Importamos los archivos extras que vamos a usar -->
+        <script src="js/app.js"></script>
+        <script src="js/controllers.js"></script>
+        
+
+    </head>
+    <body  ng-app="CarmenSandiegoWeb" class="bg-warning">
+        <div align= center class="bg-success"> 
+            <h1>¿Dónde está Carmen Sandiego?</h1><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSbbjKURhxeT-O-C22rAYscfZzV-AF9H5yQUCwLPo-dIFAdE0Iz" class="img-circle"align="right">
+            <button type="button" class="btn btn-primary" align="center">Comenzar caso</button>
+        </div>    
+        
+        
+        <div align=center>
+            <p class="text-info">Descripcion del caso</p><br/>
+            <blockquote class="bg-info"><h4>Mensaje de prueba para ver como anda el bootstrap. De paso te comento que en mi computadora no funcionan
+				los tags h1,h2... bah, funcionan como en html normal, sin bootstrap. el resto anda perfecto... </h4></blockquote>
+        </div>
+        
+        <div>
+            <div align= center>
+                <p class="text-info">Pais actual:<small>el pais actual del juego</small></p><br/>
+                <button type="button" class="btn btn-success">Lugar1</button>
+                <button type="button" class="btn btn-success">Lugar2</button>
+                <button type="button" class="btn btn-success">Lugar3</button>
+            </div>
+            
+            <div>
+             <div class="col-md-3" ng-controller="AllVillainsCtrl">   
+                <div class="panel panel-primary">
+                    <p class="text-info"><b>Expedientes</b></p>
+                    <p class="text-success"><b>{{selectedVillain.name}}</b></p><br/>
+                    <button type="button" class="btn btn-primary">Emitir orden</button><br/> 
+                   <!--<button class="button">Expedientes</button><br/>-->              
+                    <select ng-model="selectedVillain" ng-options="p for p in villano"></select>
+                </div>    
+            </div>
+            
+            <div align=center class="col-md-6">
+                <br/><blockquote class="bg-success">
+                <h4>Mensaje de prueba para ver como anda el bootstrap. De paso te comento que en mi computadora no funcionan
+				los tags h1,h2... bah, funcionan como en html normal, sin bootstrap. el resto anda perfecto... </h4></blockquote>
+            </div> 
+            
+            <div class="col-md-3" ng-controller="AllVillainsCtrl">
+                <div class="panel panel-primary">
+					<p class="text-info"><b>Conexiones</b></p>
+                    <p class="text-success"><b>{{selectedConnections.name}}</b></p><br/>
+                    <button type="button" class="btn btn-primary">Viajar</button><br/>
+                    <select ng-model="selectedConnections" ng-options="p for p in connections"></select>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
