@@ -1,6 +1,6 @@
-// @SOURCE:C:/Users/JulianV/Documents/GitHub/carmenSandiego-Web-play2/conf/routes
-// @HASH:770e5f2a9e213d36b393e72dc6504e10120c44d5
-// @DATE:Sat Nov 01 18:16:54 ART 2014
+// @SOURCE:C:/Users/JulianV/Documents/GitHub/CarmenSandiego-Web-play2/conf/routes
+// @HASH:2402f01ff2b70a823f4853d137aa7a1762aeabab
+// @DATE:Fri Nov 07 01:41:55 ART 2014
 
 package controllers;
 

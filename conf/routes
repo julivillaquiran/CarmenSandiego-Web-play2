@@ -3,6 +3,19 @@
 
 # Home page
 
+GET	 	/inciar	 		 	 		controllers.Application.incio()
+GET 	/lugar1 					controllers.Application.places1()
+GET 	/lugar2 					controllers.Application.places2()
+GET 	/lugar3 					controllers.Application.places3()
+GET 	/descripcion 				controllers.Application.descriptor()
+GET 	/nuevoCaso	 				controllers.Application.newCase()
+GET 	/lugar1msj	 				controllers.Application.place1msg()
+GET 	/lugar2msj	 				controllers.Application.place2msg()
+GET 	/lugar3msj	 				controllers.Application.place3msg()
+PUT 	/ordenCaptura				controllers.Application.captureOrder()
+PUT 	/viajar						controllers.Application.travel()
+GET 	/regresar					controllers.Application.travelBack()
+GET 	/paisActual 				controllers.Application.currentCountry()
 GET		/villanos					controllers.Application.villanos()
 GET		/conecciones				controllers.Application.conecciones()
 GET     /*file						controllers.Assets.at(path="/public", file)                       

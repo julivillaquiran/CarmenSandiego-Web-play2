@@ -28,50 +28,50 @@
         
 
     </head>
-    <body  ng-app="CarmenSandiegoWeb" class="bg-warning">
+    <body  ng-app="CarmenSandiegoWeb" class="bg-warning" ng-controller="AllVillainsCtrl">
         <div align= center class="bg-success"> 
             <h1>¿Dónde está Carmen Sandiego?</h1><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSbbjKURhxeT-O-C22rAYscfZzV-AF9H5yQUCwLPo-dIFAdE0Iz" class="img-circle"align="right">
-            <button type="button" class="btn btn-primary" align="center">Comenzar caso</button>
+            <button type="button" class="btn btn-primary" align="center" data-ng-click="newCase()">Nuevo caso</button>
         </div>    
         
         
         <div align=center>
-            <p class="text-info">Descripcion del caso</p><br/>
-            <blockquote class="bg-info"><h4>Mensaje de prueba para ver como anda el bootstrap. De paso te comento que en mi computadora no funcionan
-				los tags h1,h2... bah, funcionan como en html normal, sin bootstrap. el resto anda perfecto... </h4></blockquote>
+            <p class="text-info"><h4>Descripcion del caso</h4></p>
+            <blockquote ng-model="description" class="bg-info"><h4>{{description}}</h4></blockquote>
         </div>
         
         <div>
             <div align= center>
-                <p class="text-info">Pais actual:<small>el pais actual del juego</small></p><br/>
-                <button type="button" class="btn btn-success">Lugar1</button>
-                <button type="button" class="btn btn-success">Lugar2</button>
-                <button type="button" class="btn btn-success">Lugar3</button>
+                <p ng-model="country" class="text-info">Pais actual: {{country.name}}</p><br/>
+                <button ng-model="place1" type="button" class="btn btn-success" data-ng-click="place1msg()">{{place1.name}}</button>
+                <button ng-model="place2" type="button" class="btn btn-success" data-ng-click="place2msg()">{{place2.name}}</button>
+                <button ng-model="place3" type="button" class="btn btn-success" data-ng-click="place3msg()">{{place3.name}}</button>
             </div>
             
             <div>
-             <div class="col-md-3" ng-controller="AllVillainsCtrl">   
+             <div class="col-md-3">   
                 <div class="panel panel-primary">
                     <p class="text-info"><b>Expedientes</b></p>
-                    <p class="text-success"><b>{{selectedVillain.name}}</b></p><br/>
-                    <button type="button" class="btn btn-primary">Emitir orden</button><br/> 
+                    <p class="text-info"><b>Orden Emitida contra:</b></p>
+                    <p class="text-success" ng-model="warrant"><b>{{warrant.name}}</b></p>
+                    <button type="button" class="btn btn-primary" data-ng-click="captureOrder()">Emitir orden</button><br/> 
                    <!--<button class="button">Expedientes</button><br/>-->              
-                    <select ng-model="selectedVillain" ng-options="p for p in villano"></select>
+                    <select ng-model="selectedVillain" ng-options="p.name for p in villano"></select>
                 </div>    
             </div>
             
             <div align=center class="col-md-6">
-                <br/><blockquote class="bg-success">
-                <h4>Mensaje de prueba para ver como anda el bootstrap. De paso te comento que en mi computadora no funcionan
-				los tags h1,h2... bah, funcionan como en html normal, sin bootstrap. el resto anda perfecto... </h4></blockquote>
+                <br/><blockquote class="bg-success" ng-model="message">
+                <h4 >{{message}}</h4></blockquote>
             </div> 
             
-            <div class="col-md-3" ng-controller="AllVillainsCtrl">
+            <div class="col-md-3">
                 <div class="panel panel-primary">
 					<p class="text-info"><b>Conexiones</b></p>
-                    <p class="text-success"><b>{{selectedConnections.name}}</b></p><br/>
-                    <button type="button" class="btn btn-primary">Viajar</button><br/>
-                    <select ng-model="selectedConnections" ng-options="p for p in connections"></select>
+                    <p class="text-success"><b>Desea viajar a: {{selectedConnections.name}}</b></p><br/>
+                    <button type="button" class="btn btn-primary" data-ng-click="travel()">Viajar</button>
+                    <button type="button" class="btn btn-primary" data-ng-click="travelBack()">Regresar</button><br/>
+                    <select ng-model="selectedConnections" ng-options="p.name for p in connections"></select>
                 </div>
             </div>
         </div>

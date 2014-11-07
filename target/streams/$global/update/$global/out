@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/C:/Users/JulianV/Documents/GitHub/carmenSandiego-Web-play2/}carmensandiego-web-play2...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/C:/Users/JulianV/Documents/GitHub/CarmenSandiego-Web-play2/}carmensandiego-web-play2...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7cc3e9b8[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ecf3e84[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.3 in sbt-chain[0m
@@ -768,6 +768,68 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.5->net.sf.ehcache#ehcache-core;2.6.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdon't use cache for unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mdon't use cache for unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m		tried C:\play-2.2.5\repository\local\unq.ui.carmensandiego\carmensandiego-model\0.0.1-SNAPSHOT\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: file:/C:/Users/JulianV/.m2/repository/unq/ui/carmensandiego/carmensandiego-model/0.0.1-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried file:/C:/Users/JulianV/.m2/repository/unq/ui/carmensandiego/carmensandiego-model/0.0.1-SNAPSHOT/carmensandiego-model-0.0.1-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	Maven2 Local: found md file for unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		=> file:/C:/Users/JulianV/.m2/repository/unq/ui/carmensandiego/carmensandiego-model/0.0.1-SNAPSHOT/carmensandiego-model-0.0.1-SNAPSHOT.pom (0.0.1-SNAPSHOT)[0m
+[0m[[0mdebug[0m] [0m	default-cache: revision in cache is not up to date: unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdownloading file:/C:/Users/JulianV/.m2/repository/unq/ui/carmensandiego/carmensandiego-model/0.0.1-SNAPSHOT/carmensandiego-model-0.0.1-SNAPSHOT.pom ...[0m
+[0m[[0mdebug[0m] [0m	Maven2 Local: downloading file:/C:/Users/JulianV/.m2/repository/unq/ui/carmensandiego/carmensandiego-model/0.0.1-SNAPSHOT/carmensandiego-model-0.0.1-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT!carmensandiego-model.pom(pom.original) (11ms)[0m
+[0m[[0mdebug[0m] [0munq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT has changed: deleting old artifacts[0m
+[0m[[0mdebug[0m] [0mDeleting additional old artifacts from cache for changed module unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT:[0m
+[0m[[0mdebug[0m] [0m	[0m
+[0m[[0mdebug[0m] [0m	found unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT in Maven2 Local[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT->org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2[0m
+[0m[[0mdebug[0m] [0m	found org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT->org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2[0m
+[0m[[0mdebug[0m] [0m	found org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2->com.google.guava#guava;[10.0.1,14.0.1] [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving com.google.guava#guava;[10.0.1,14.0.1] ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.google.guava#guava;[10.0.1,14.0.1] {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdefault-cache: cached resolved revision expired for com.google.guava#guava;[10.0.1,14.0.1][0m
+[0m[[0mdebug[0m] [0mdefault-cache: cached resolved revision expired for com.google.guava#guava;[10.0.1,14.0.1][0m
+[0m[[0mdebug[0m] [0m		tried C:\play-2.2.5\repository\local\com.google.guava\guava\[revision]\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0mlocal do not support transaction. ivy pattern does not use revision as a directory[0m
+[0m[[0mdebug[0m] [0m	local: found md file for com.google.guava#guava;[10.0.1,14.0.1][0m
+[0m[[0mdebug[0m] [0m		=> C:\play-2.2.5\repository\local\com.google.guava\guava\14.0.1\ivys\ivy.xml (14.0.1)[0m
+[0m[[0mdebug[0m] [0m	local: revision already resolved: com.google.guava#guava;14.0.1[0m
+[0m[[0mdebug[0m] [0m	found com.google.guava#guava;14.0.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[14.0.1] com.google.guava#guava;[10.0.1,14.0.1][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2->com.google.guava#guava;14.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->com.google.guava#guava;14.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->com.google.guava#guava;14.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT->org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT->org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2->com.google.guava#guava;14.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2->com.google.guava#guava;14.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->com.google.guava#guava;14.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->com.google.guava#guava;14.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT->org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT->org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.2.5 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java_2.10;2.2.5 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
@@ -1205,6 +1267,26 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.5->net.sf.ehcache#ehcache-core;2.6.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT->org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT->org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2->com.google.guava#guava;14.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2->com.google.guava#guava;14.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->com.google.guava#guava;14.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->com.google.guava#guava;14.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT->org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT->org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2->com.google.guava#guava;14.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2->com.google.guava#guava;14.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->com.google.guava#guava;14.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->com.google.guava#guava;14.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.2.5 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java_2.10;2.2.5 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
@@ -1643,6 +1725,26 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.5->net.sf.ehcache#ehcache-core;2.6.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT->org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT->org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2->com.google.guava#guava;14.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2->com.google.guava#guava;14.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->com.google.guava#guava;14.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->com.google.guava#guava;14.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT->org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT->org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2->com.google.guava#guava;14.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2->com.google.guava#guava;14.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->com.google.guava#guava;14.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->com.google.guava#guava;14.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.2.5 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java_2.10;2.2.5 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->com.typesafe.play#play-test_2.10;2.2.5 [test->default(compile)][0m
@@ -3020,6 +3122,26 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.5->net.sf.ehcache#ehcache-core;2.6.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT->org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT->org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2->com.google.guava#guava;14.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2->com.google.guava#guava;14.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->com.google.guava#guava;14.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->com.google.guava#guava;14.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT->org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT->org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2->com.google.guava#guava;14.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2->com.google.guava#guava;14.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->com.google.guava#guava;14.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->com.google.guava#guava;14.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.2.5 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java_2.10;2.2.5 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT [optional][0m
@@ -3460,6 +3582,26 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.5->net.sf.ehcache#ehcache-core;2.6.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT->org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT->org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2->com.google.guava#guava;14.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2->com.google.guava#guava;14.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->com.google.guava#guava;14.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->com.google.guava#guava;14.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT->org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT->org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2->com.google.guava#guava;14.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2->com.google.guava#guava;14.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->com.google.guava#guava;14.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->com.google.guava#guava;14.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.2.5 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java_2.10;2.2.5 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT [optional][0m
@@ -3900,6 +4042,26 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.5->net.sf.ehcache#ehcache-core;2.6.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT->org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT->org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2->com.google.guava#guava;14.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2->com.google.guava#guava;14.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->com.google.guava#guava;14.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->com.google.guava#guava;14.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT->org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT->org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2->com.google.guava#guava;14.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2->com.google.guava#guava;14.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->com.google.guava#guava;14.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2->com.google.guava#guava;14.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.2.5 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java_2.10;2.2.5 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->com.typesafe.play#play-test_2.10;2.2.5 [test->default(compile)][0m
@@ -5096,12 +5258,17 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->optional(default)][0m
-[0m[[0mdebug[0m] [0m	resolved ivy file produced in C:\Users\JulianV\Documents\GitHub\carmenSandiego-Web-play2\target\resolution-cache\carmensandiego-web-play2\carmensandiego-web-play2_2.10\1.0-SNAPSHOT\resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in C:\Users\JulianV\Documents\GitHub\CarmenSandiego-Web-play2\target\resolution-cache\carmensandiego-web-play2\carmensandiego-web-play2_2.10\1.0-SNAPSHOT\resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.3!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-java-jdbc_2.10;2.2.5!play-java-jdbc_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-java-ebean_2.10;2.2.5!play-java-ebean_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-cache_2.10;2.2.5!play-cache_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: file:/C:/Users/JulianV/.m2/repository/unq/ui/carmensandiego/carmensandiego-model/0.0.1-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried file:/C:/Users/JulianV/.m2/repository/unq/ui/carmensandiego/carmensandiego-model/0.0.1-SNAPSHOT/carmensandiego-model-0.0.1-SNAPSHOT.jar[0m
+[0m[[0minfo[0m] [0mdownloading file:/C:/Users/JulianV/.m2/repository/unq/ui/carmensandiego/carmensandiego-model/0.0.1-SNAPSHOT/carmensandiego-model-0.0.1-SNAPSHOT.jar ...[0m
+[0m[[0mdebug[0m] [0m	Maven2 Local: downloading file:/C:/Users/JulianV/.m2/repository/unq/ui/carmensandiego/carmensandiego-model/0.0.1-SNAPSHOT/carmensandiego-model-0.0.1-SNAPSHOT.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] unq.ui.carmensandiego#carmensandiego-model;0.0.1-SNAPSHOT!carmensandiego-model.jar (12ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play_2.10;2.2.5!play_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-java_2.10;2.2.5!play-java_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-jdbc_2.10;2.2.5!play-jdbc_2.10.jar[0m
@@ -5163,6 +5330,8 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1!avaje-ebeanorm-agent.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final!hibernate-jpa-2.0-api.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.sf.ehcache#ehcache-core;2.6.6!ehcache-core.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.xtend#org.eclipse.xtend.lib;2.6.2!org.eclipse.xtend.lib.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.xtext#org.eclipse.xtext.xbase.lib;2.6.2!org.eclipse.xtext.xbase.lib.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-test_2.10;2.2.5!play-test_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] junit#junit;4.11!junit.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#specs2_2.10;2.1.1!specs2_2.10.jar[0m
@@ -5223,19 +5392,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.3!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2454ms :: artifacts dl 132ms[0m
-[0m[[0mdebug[0m] [0m	report for carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT compile produced in C:\Users\JulianV\Documents\GitHub\carmenSandiego-Web-play2\target\resolution-cache\reports\carmensandiego-web-play2-carmensandiego-web-play2_2.10-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT runtime produced in C:\Users\JulianV\Documents\GitHub\carmenSandiego-Web-play2\target\resolution-cache\reports\carmensandiego-web-play2-carmensandiego-web-play2_2.10-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT test produced in C:\Users\JulianV\Documents\GitHub\carmenSandiego-Web-play2\target\resolution-cache\reports\carmensandiego-web-play2-carmensandiego-web-play2_2.10-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT provided produced in C:\Users\JulianV\Documents\GitHub\carmenSandiego-Web-play2\target\resolution-cache\reports\carmensandiego-web-play2-carmensandiego-web-play2_2.10-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT optional produced in C:\Users\JulianV\Documents\GitHub\carmenSandiego-Web-play2\target\resolution-cache\reports\carmensandiego-web-play2-carmensandiego-web-play2_2.10-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT compile-internal produced in C:\Users\JulianV\Documents\GitHub\carmenSandiego-Web-play2\target\resolution-cache\reports\carmensandiego-web-play2-carmensandiego-web-play2_2.10-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT runtime-internal produced in C:\Users\JulianV\Documents\GitHub\carmenSandiego-Web-play2\target\resolution-cache\reports\carmensandiego-web-play2-carmensandiego-web-play2_2.10-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT test-internal produced in C:\Users\JulianV\Documents\GitHub\carmenSandiego-Web-play2\target\resolution-cache\reports\carmensandiego-web-play2-carmensandiego-web-play2_2.10-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT plugin produced in C:\Users\JulianV\Documents\GitHub\carmenSandiego-Web-play2\target\resolution-cache\reports\carmensandiego-web-play2-carmensandiego-web-play2_2.10-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT sources produced in C:\Users\JulianV\Documents\GitHub\carmenSandiego-Web-play2\target\resolution-cache\reports\carmensandiego-web-play2-carmensandiego-web-play2_2.10-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT docs produced in C:\Users\JulianV\Documents\GitHub\carmenSandiego-Web-play2\target\resolution-cache\reports\carmensandiego-web-play2-carmensandiego-web-play2_2.10-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT pom produced in C:\Users\JulianV\Documents\GitHub\carmenSandiego-Web-play2\target\resolution-cache\reports\carmensandiego-web-play2-carmensandiego-web-play2_2.10-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT scala-tool produced in C:\Users\JulianV\Documents\GitHub\carmenSandiego-Web-play2\target\resolution-cache\reports\carmensandiego-web-play2-carmensandiego-web-play2_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (2454ms resolve - 132ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1887ms :: artifacts dl 96ms[0m
+[0m[[0mdebug[0m] [0m	report for carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT compile produced in C:\Users\JulianV\Documents\GitHub\CarmenSandiego-Web-play2\target\resolution-cache\reports\carmensandiego-web-play2-carmensandiego-web-play2_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT runtime produced in C:\Users\JulianV\Documents\GitHub\CarmenSandiego-Web-play2\target\resolution-cache\reports\carmensandiego-web-play2-carmensandiego-web-play2_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT test produced in C:\Users\JulianV\Documents\GitHub\CarmenSandiego-Web-play2\target\resolution-cache\reports\carmensandiego-web-play2-carmensandiego-web-play2_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT provided produced in C:\Users\JulianV\Documents\GitHub\CarmenSandiego-Web-play2\target\resolution-cache\reports\carmensandiego-web-play2-carmensandiego-web-play2_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT optional produced in C:\Users\JulianV\Documents\GitHub\CarmenSandiego-Web-play2\target\resolution-cache\reports\carmensandiego-web-play2-carmensandiego-web-play2_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT compile-internal produced in C:\Users\JulianV\Documents\GitHub\CarmenSandiego-Web-play2\target\resolution-cache\reports\carmensandiego-web-play2-carmensandiego-web-play2_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT runtime-internal produced in C:\Users\JulianV\Documents\GitHub\CarmenSandiego-Web-play2\target\resolution-cache\reports\carmensandiego-web-play2-carmensandiego-web-play2_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT test-internal produced in C:\Users\JulianV\Documents\GitHub\CarmenSandiego-Web-play2\target\resolution-cache\reports\carmensandiego-web-play2-carmensandiego-web-play2_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT plugin produced in C:\Users\JulianV\Documents\GitHub\CarmenSandiego-Web-play2\target\resolution-cache\reports\carmensandiego-web-play2-carmensandiego-web-play2_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT sources produced in C:\Users\JulianV\Documents\GitHub\CarmenSandiego-Web-play2\target\resolution-cache\reports\carmensandiego-web-play2-carmensandiego-web-play2_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT docs produced in C:\Users\JulianV\Documents\GitHub\CarmenSandiego-Web-play2\target\resolution-cache\reports\carmensandiego-web-play2-carmensandiego-web-play2_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT pom produced in C:\Users\JulianV\Documents\GitHub\CarmenSandiego-Web-play2\target\resolution-cache\reports\carmensandiego-web-play2-carmensandiego-web-play2_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for carmensandiego-web-play2#carmensandiego-web-play2_2.10;1.0-SNAPSHOT scala-tool produced in C:\Users\JulianV\Documents\GitHub\CarmenSandiego-Web-play2\target\resolution-cache\reports\carmensandiego-web-play2-carmensandiego-web-play2_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (1887ms resolve - 96ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

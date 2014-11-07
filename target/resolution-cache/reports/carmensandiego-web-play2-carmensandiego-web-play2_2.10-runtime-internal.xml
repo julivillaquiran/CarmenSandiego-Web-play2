@@ -7,8 +7,41 @@
 		revision="1.0-SNAPSHOT"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20141101180738"/>
+		date="20141105215638"/>
 	<dependencies>
+		<module organisation="unq.ui.carmensandiego" name="carmensandiego-model">
+			<revision name="0.0.1-SNAPSHOT" status="integration" pubdate="20141105214540" resolver="Maven2 Local" artresolver="Maven2 Local" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="65">
+				<metadata-artifact status="successful" details="" size="1605" time="11" location="C:\play-2.2.5\framework\..\repository\cache\unq.ui.carmensandiego\carmensandiego-model\ivy-0.0.1-SNAPSHOT.xml" searched="true" original-local-location="C:\play-2.2.5\framework\..\repository\cache\unq.ui.carmensandiego\carmensandiego-model\ivy-0.0.1-SNAPSHOT.xml.original" origin-is-local="false" origin-location="file:/C:/Users/JulianV/.m2/repository/unq/ui/carmensandiego/carmensandiego-model/0.0.1-SNAPSHOT/carmensandiego-model-0.0.1-SNAPSHOT.pom"/>
+				<caller organisation="carmensandiego-web-play2" name="carmensandiego-web-play2_2.10" conf="compile, runtime-internal, runtime, optional" rev="0.0.1-SNAPSHOT" rev-constraint-default="0.0.1-SNAPSHOT" rev-constraint-dynamic="0.0.1-SNAPSHOT" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="carmensandiego-model" type="jar" ext="jar" status="successful" details="" size="115815" time="12" location="C:\play-2.2.5\framework\..\repository\cache\unq.ui.carmensandiego\carmensandiego-model\jars\carmensandiego-model-0.0.1-SNAPSHOT.jar">
+						<origin-location is-local="false" location="file:/C:/Users/JulianV/.m2/repository/unq/ui/carmensandiego/carmensandiego-model/0.0.1-SNAPSHOT/carmensandiego-model-0.0.1-SNAPSHOT.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.xtend" name="org.eclipse.xtend.lib">
+			<revision name="2.6.2" status="release" pubdate="20140903192847" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="66">
+				<metadata-artifact status="no" details="" size="4913" time="0" location="C:\play-2.2.5\framework\..\repository\cache\org.eclipse.xtend\org.eclipse.xtend.lib\ivy-2.6.2.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/JulianV/.m2/repository/org/eclipse/xtend/org.eclipse.xtend.lib/2.6.2/org.eclipse.xtend.lib-2.6.2.pom"/>
+				<caller organisation="unq.ui.carmensandiego" name="carmensandiego-model" conf="default, compile, runtime, master" rev="2.6.2" rev-constraint-default="2.6.2" rev-constraint-dynamic="2.6.2" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="org.eclipse.xtend.lib" type="jar" ext="jar" status="no" details="" size="47462" time="0" location="C:\play-2.2.5\framework\..\repository\cache\org.eclipse.xtend\org.eclipse.xtend.lib\jars\org.eclipse.xtend.lib-2.6.2.jar">
+						<origin-location is-local="false" location="file:/C:/Users/JulianV/.m2/repository/org/eclipse/xtend/org.eclipse.xtend.lib/2.6.2/org.eclipse.xtend.lib-2.6.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.xtext" name="org.eclipse.xtext.xbase.lib">
+			<revision name="2.6.2" status="release" pubdate="20140903192853" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="67">
+				<metadata-artifact status="no" details="" size="4767" time="0" location="C:\play-2.2.5\framework\..\repository\cache\org.eclipse.xtext\org.eclipse.xtext.xbase.lib\ivy-2.6.2.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/JulianV/.m2/repository/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.6.2/org.eclipse.xtext.xbase.lib-2.6.2.pom"/>
+				<caller organisation="org.eclipse.xtend" name="org.eclipse.xtend.lib" conf="compile, runtime" rev="2.6.2" rev-constraint-default="2.6.2" rev-constraint-dynamic="2.6.2" callerrev="2.6.2"/>
+				<artifacts>
+					<artifact name="org.eclipse.xtext.xbase.lib" type="jar" ext="jar" status="no" details="" size="103448" time="0" location="C:\play-2.2.5\framework\..\repository\cache\org.eclipse.xtext\org.eclipse.xtext.xbase.lib\jars\org.eclipse.xtext.xbase.lib-2.6.2.jar">
+						<origin-location is-local="false" location="file:/C:/Users/JulianV/.m2/repository/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.6.2/org.eclipse.xtext.xbase.lib-2.6.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="com.typesafe.play" name="play-cache_2.10">
 			<revision name="2.2.5" status="release" pubdate="20141006202428" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="63">
 				<metadata-artifact status="no" details="" size="2128" time="0" location="C:\play-2.2.5\framework\..\repository\cache\com.typesafe.play\play-cache_2.10\ivy-2.2.5.xml" searched="false" origin-is-local="true" origin-location="C:\play-2.2.5\repository\local\com.typesafe.play\play-cache_2.10\2.2.5\ivys\ivy.xml"/>
@@ -268,8 +301,10 @@
 			</revision>
 		</module>
 		<module organisation="com.google.guava" name="guava">
-			<revision name="14.0.1" status="release" pubdate="20141005230804" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="44">
-				<metadata-artifact status="no" details="" size="3643" time="0" location="C:\play-2.2.5\framework\..\repository\cache\com.google.guava\guava\ivy-14.0.1.xml" searched="false" origin-is-local="true" origin-location="C:\play-2.2.5\repository\local\com.google.guava\guava\14.0.1\ivys\ivy.xml"/>
+			<revision name="14.0.1" status="release" pubdate="20141005230804" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="true" default="false" conf="default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master" position="44">
+				<metadata-artifact status="no" details="" size="3643" time="0" location="C:\play-2.2.5\framework\..\repository\cache\com.google.guava\guava\ivy-14.0.1.xml" searched="true" origin-is-local="true" origin-location="C:\play-2.2.5\repository\local\com.google.guava\guava\14.0.1\ivys\ivy.xml"/>
+				<caller organisation="org.eclipse.xtext" name="org.eclipse.xtext.xbase.lib" conf="compile, runtime" rev="[10.0.1,14.0.1]" rev-constraint-default="[10.0.1,14.0.1]" rev-constraint-dynamic="[10.0.1,14.0.1]" callerrev="2.6.2"/>
+				<caller organisation="org.eclipse.xtend" name="org.eclipse.xtend.lib" conf="compile, runtime" rev="[10.0.1,14.0.1]" rev-constraint-default="[10.0.1,14.0.1]" rev-constraint-dynamic="[10.0.1,14.0.1]" callerrev="2.6.2"/>
 				<caller organisation="com.typesafe.play" name="play-java_2.10" conf="compile" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="2.2.5"/>
 				<caller organisation="com.typesafe.play" name="play-jdbc_2.10" conf="compile" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="2.2.5"/>
 				<artifacts>

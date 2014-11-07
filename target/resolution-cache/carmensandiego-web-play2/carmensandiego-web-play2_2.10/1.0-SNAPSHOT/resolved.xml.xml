@@ -4,7 +4,7 @@
 		module="carmensandiego-web-play2_2.10"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20141101180737"
+		publication="20141105215638"
 	>
 		<description>
 		carmenSandiego-Web-play2
@@ -37,6 +37,7 @@
 		<dependency org="com.typesafe.play" name="play-java-jdbc_2.10" rev="2.2.5" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-java-ebean_2.10" rev="2.2.5" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-cache_2.10" rev="2.2.5" conf="compile->default(compile)"/>
+		<dependency org="unq.ui.carmensandiego" name="carmensandiego-model" rev="0.0.1-SNAPSHOT" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play_2.10" rev="2.2.5" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-test_2.10" rev="2.2.5" conf="test->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-docs_2.10" rev="2.2.5" conf="docs->default(compile)"/>

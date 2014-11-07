@@ -1,11 +1,3 @@
-run
-clean
 update
-run
-cd..
-exit
-run
-exit
-run
-undate
+eclipse
 run
